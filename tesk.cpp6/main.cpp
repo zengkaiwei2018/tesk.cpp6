@@ -103,29 +103,36 @@ do{
         
         
 int ad=0;
-while(1){
+do{
         getline(fp1,student[add].school,' ');
         getline(fp1,student[add].number,' ');
         getline(fp1,student[add].name,'\n');add++;
         }while(!fp1.eof());
         getline(fp1,student[add].name,'\n');
         add++;
+}while(1)
+fp1.close();
+ifstream fp1("/Users/s20181105306/Desktop/评委信息.txt ");
+do{
+    getline(fp2,jude[add2].name,' ');
+    int j=0;
+    peo_number=add;
+    for(;peo_number>1;peo_number--)
+    {
+        getline(fp2,point,'\n');
+        jude[add2].f_point[j]=atoi(point.c_str());
+        add2++;
     }
-    fp1.close();
-    //ifstream fp1("C:\\Users\\•û¿ªÎ°\\Desktop\\ÎÄ¼þ1.txt");
-    ifstream fp1("/Users/s20181105306/Desktop/评委信息.txt ");
-    do{
-        getline(fp2,jude[add2].name,' ');
-        int j=0;
-        @@ -85,17 +88,24 @@ int main(int argc, const char * argv[]) {
-            getline(fp2,point,'\n');
-            jude[add2].f_point[j]=atoi(point.c_str());add2++;
-        }
     }while(add2!=7);
-    fp2.close(); float G_point[7];
-}while(ad!=7);
-
-
+getline(fp2,core[i]=atoi(core).D_str());
+jude[add2].f_core[i]=atoi(core.c_str());
+i++;
+}
+getline(fp2,core,'\n');
+jude[add2].f_core[i]=atoi(core.c_str());
+jude[add2].f_core[i]=atoi(core.c_str());
+add2++;
+}
 fp2.close();
 
 float G_point[7];
