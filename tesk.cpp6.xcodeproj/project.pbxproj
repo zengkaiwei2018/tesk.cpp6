@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		D944D9EF22CCC47800485067 /* tesk.cpp6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tesk.cpp6; sourceTree = BUILT_PRODUCTS_DIR; };
 		D944D9F222CCC47800485067 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D944D9F922CCC7D000485067 /* tesk.cpp6 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tesk.cpp6; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D944D9F222CCC47800485067 /* main.cpp */,
+				D944D9F922CCC7D000485067 /* tesk.cpp6 */,
 			);
 			path = tesk.cpp6;
 			sourceTree = "<group>";
